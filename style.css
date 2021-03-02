@@ -1,0 +1,53 @@
+body{
+	background-image: url("./Images/site-bg.png");
+	background-color: black;
+}
+
+#white {
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	padding: 50px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#white button {
+	padding: 16px 32px;
+	width: 175px;
+	font-size: 18px;
+	background-color: transparent;
+	color: #ffffff;
+	margin: 10px;
+	font-weight: bold;
+	border: 2px solid #d2d3d3;
+	transition-duration: 0.4s;
+}
+
+#white h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+#white p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#white input {
+	padding: 10px;
+}
+
+#white input[type=Submit] {
+	padding: 10px 22px;
+	width: 125px;
+	font-size: 16px;
+	background-color: blue;
+	color: #ffffff;
+	margin: 10px;
+	border-radius: 20px;
+	border: 0px;
+}
